@@ -108,7 +108,6 @@ body {
     display: none;
 }
 
-
 .card {
 
     width: 18rem;
@@ -119,7 +118,6 @@ body {
     margin-left: 24px;
 
 }
-
 
 .card:hover {
     transform: scale(1.03);
@@ -149,7 +147,6 @@ body {
     cursor: pointer;
 
 }
-
 
 @media (max-width: 576px) {
     .titulo-head {

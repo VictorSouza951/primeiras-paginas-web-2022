@@ -32,66 +32,66 @@ function ativafavorito1() {
 
 
     var img = document.getElementById('curtir');
-    if (img.src.match("icone-noire-noir.png")) {
-        img.src = "like.png";
+    if (img.src.match("./img/icone-noire-noir.png")) {
+        img.src = "./img/like.png";
     }
     else {
-        img.src = "icone-noire-noir.png";
+        img.src = "./img/icone-noire-noir.png";
     }
 }
 function ativafavorito2() {
 
 
     var img = document.getElementById('curtir2');
-    if (img.src.match("icone-noire-noir.png")) {
-        img.src = "like.png";
+    if (img.src.match("./img/icone-noire-noir.png")) {
+        img.src = "./img/like.png";
     }
     else {
-        img.src = "icone-noire-noir.png";
+        img.src = "./img/icone-noire-noir.png";
     }
 }
 function ativafavorito3() {
 
 
     var img = document.getElementById('curtir3');
-    if (img.src.match("icone-noire-noir.png")) {
-        img.src = "like.png";
+    if (img.src.match("./img/icone-noire-noir.png")) {
+        img.src = "./img/like.png";
     }
     else {
-        img.src = "icone-noire-noir.png";
+        img.src = "./img/icone-noire-noir.png";
     }
 }
 function ativafavorito4() {
 
 
     var img = document.getElementById('curtir4');
-    if (img.src.match("icone-noire-noir.png")) {
-        img.src = "like.png";
+    if (img.src.match("./img/icone-noire-noir.png")) {
+        img.src = "./img/like.png";
     }
     else {
-        img.src = "icone-noire-noir.png";
+        img.src = "./img/icone-noire-noir.png";
     }
 }
 function ativafavorito5() {
 
 
     var img = document.getElementById('curtir5');
-    if (img.src.match("icone-noire-noir.png")) {
-        img.src = "like.png";
+    if (img.src.match("./img/icone-noire-noir.png")) {
+        img.src = "./img/like.png";
     }
     else {
-        img.src = "icone-noire-noir.png";
+        img.src = "./img/icone-noire-noir.png";
     }
 }
 function ativafavorito6() {
 
 
     var img = document.getElementById('curtir6');
-    if (img.src.match("icone-noire-noir.png")) {
-        img.src = "like.png";
+    if (img.src.match("./img/icone-noire-noir.png")) {
+        img.src = "./img/like.png";
     }
     else {
-        img.src = "icone-noire-noir.png";
+        img.src = "./img/icone-noire-noir.png";
     }
 }
 

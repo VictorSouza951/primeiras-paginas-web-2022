@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.fixo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+    background-color: bisque;
+    
+
+}
+
+.head {
+    background-color: bisque;
+}
+
+.img-head {
+    width: 60px;
+    margin: 10px 10px 0 10px;
+}
+
+.titulo-head {
+    display: inline;
+    vertical-align: auto;
+    font-size: 40px;
+
+}
+
+.navbtns {
+
+    display: flex;
+    width: 100%;
+    align-self: center;
+    padding-left: 40%;
+    
+}
+
+
+
+
+.btn {
+
+    border: 0mm;
+    outline: none;
+    padding: 12px 16px;
+    background-color: bisque;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background: rgb(224, 144, 46);
+}
+
+.active::after {
+    background: orange;
+    content: '';
+    display: block;
+    height: 3px;
+}
+
+
+
+li {
+
+    float: left;
+
+}
+
+body {
+    position: relative;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.coluna {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    max-width: 1024px;
+
+}
+
+
+.card {
+
+    width: 18rem;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px black;
+    margin-bottom: 20px;
+    margin-left: 24px;
+    
+}
+
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.imagem {
+    height: 280px;
+    width: 100%;
+}
+
+
+.nomereceita {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+
+.likebtn{
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    color: grey;
+}
+
+.likebtn i:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 576px) {
+    .titulo-head {
+        font-size: 28px;
+    }
+
+    .navbtns,
+    .itemnav,
+    .btn {
+        padding-left: 0%;
+    }
+
+    .card {
+        width: 18rem;
+    }
+
+    .segundo {
+        margin-top: 0px;
+    }
+
+    .image-card {
+        height: 180px;
+    }
+}

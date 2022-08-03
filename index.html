@@ -19,66 +19,73 @@
       </div>
 
       <div class="navbtns">
-        <ul>
-          <li data-li="item" class="btn active">Mostrar tudo</li>
-          <li data-li="bolos" class="btn">Bolos</li>
-          <li data-li="doces" class="btn">Doces</li>
-          <li data-li="drinks" class="btn">Drinks</li>
-        </ul>
+        <button class="btn active" data-li="todos">Mostrar tudo</button>
+        <button class="btn" data-li="bolos">Bolos</button>
+        <button class="btn" data-li="doces">Doces</button>
+        <button class="btn" data-li="drinks">Drinks</button>
       </div>
     </header>
   </section>
 
   <!-- Receitas -->
   <br><br><br><br><br><br><br><br><br>
+  <div class="coluna">
 
-  <section class="coluna">
-    <div class="card">
-      <img class="imagem" src="Bolo-Espelho.jpg" alt="Bolo Espelho">
-      <h3 class="nomereceita">Bolo Espelho</h3>
-      <p class="tipo-receita">Bolos</p>
-      <img id="curtir" class="like" src="icone-noire-noir.png" onclick="ativafavorito1()">
+    <div class="categoria bolos">
+      <div class="card">
+        <img class="imagem" src="Bolo-Espelho.jpg" alt="Bolo Espelho">
+        <h3 class="nomereceita">Bolo Espelho</h3>
+        <p class="tiporeceita">Bolos</p>
+        <img id="curtir" class="like" src="icone-noire-noir.png" onclick="ativafavorito1()">
+      </div>
     </div>
 
-    <div class="card">
-      <img class="imagem" src="cuba-libre.jpg" alt="Bebida Cuba Libre">
-      <h3 class="nomereceita">Cuba Libre</h3>
-      <p class="tipo-receita">Drinks</p>
-      <img id="curtir2" class="like" src="icone-noire-noir.png" onclick="ativafavorito2()">
-    </div>
-  </section>
-
-  <section class="coluna">
-    <div class="card">
-      <img class="imagem" src="quindim.jpg" alt="quindim">
-      <h3 class="nomereceita">Quindim</h3>
-      <p class="tipo-receita">Doces</p>
-      <img id="curtir3" class="like" src="icone-noire-noir.png" onclick="ativafavorito3()">
+    <div class="categoria drinks">
+      <div class="card">
+        <img class="imagem" src="cuba-libre.jpg" alt="Bebida Cuba Libre">
+        <h3 class="nomereceita">Cuba Libre</h3>
+        <p class="tiporeceita">Drinks</p>
+        <img id="curtir2" class="like" src="icone-noire-noir.png" onclick="ativafavorito2()">
+      </div>
     </div>
 
-    <div class="card">
-      <img class="imagem" src="bolo-cenoura.jpg" alt="bolo-cenoura">
-      <h3 class="nomereceita">Bolo de Cenoura</h3>
-      <p class="tipo-receita">Bolos</p>
-      <img id="curtir4" class="like" src="icone-noire-noir.png" onclick="ativafavorito4()">
-    </div>
-  </section>
-
-  <section class="coluna">
-    <div class="card">
-      <img class="imagem" src="margarita-tradicional.jpg" alt="Bebida Margarita">
-      <h3 class="nomereceita">Margarita</h3>
-      <p class="tipo-receita">Drinks</p>
-      <img id="curtir5" class="like" src="icone-noire-noir.png" onclick="ativafavorito5()">
+    <div class="categoria doces">
+      <div class="card">
+        <img class="imagem" src="quindim.jpg" alt="quindim">
+        <h3 class="nomereceita">Quindim</h3>
+        <p class="tiporeceita">Doces</p>
+        <img id="curtir3" class="like" src="icone-noire-noir.png" onclick="ativafavorito3()">
+      </div>
     </div>
 
-    <div class="card">
-      <img class="imagem" src="pudim.jpg" alt="Pudim">
-      <h3 class="nomereceita">Pudim</h3>
-      <p class="tipo-receita">Doces</p>
-      <img id="curtir6" class="like" src="icone-noire-noir.png" onclick="ativafavorito6()">
+    <div class="categoria bolos">
+      <div class="card">
+        <img class="imagem" src="bolo-cenoura.jpg" alt="bolo-cenoura">
+        <h3 class="nomereceita">Bolo de Cenoura</h3>
+        <p class="tiporeceita">Bolos</p>
+        <img id="curtir4" class="like" src="icone-noire-noir.png" onclick="ativafavorito4()">
+      </div>
     </div>
-  </section>
+
+    <div class="categoria drinks">
+      <div class="card">
+        <img class="imagem" src="margarita-tradicional.jpg" alt="Bebida Margarita">
+        <h3 class="nomereceita">Margarita</h3>
+        <p class="tiporeceita">Drinks</p>
+        <img id="curtir5" class="like" src="icone-noire-noir.png" onclick="ativafavorito5()">
+      </div>
+    </div>
+
+    <div class="categoria doces">
+      <div class="card">
+        <img class="imagem" src="pudim.jpg" alt="Pudim">
+        <h3 class="nomereceita">Pudim</h3>
+        <p class="tiporeceita">Doces</p>
+        <img id="curtir6" class="like" src="icone-noire-noir.png" onclick="ativafavorito6()">
+      </div>
+    </div>
+  </div>
 </body>
 <script src="main.js"></script>
+
 </html>
